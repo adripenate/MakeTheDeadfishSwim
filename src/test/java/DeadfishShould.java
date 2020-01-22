@@ -23,6 +23,11 @@ public class DeadfishShould {
         assertThat(Deadfish.parse("dio")).isEqualTo(new int[] {0});
     }
 
+    @Test
+    public void increment_decrement_and_output_a_zero_one() {
+        assertThat(Deadfish.parse("ido")).isEqualTo(new int[] {0});
+    }
+
     private static class Deadfish {
         private static final String OUTPUT_COMMAND = "o";
         private static final char INCREMENT_COMMAND = 'i';
