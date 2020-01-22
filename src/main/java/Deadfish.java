@@ -27,7 +27,7 @@ public class Deadfish {
     private static int operateOnOutput(char command, int number) {
         if (isIncrementCommand(command)) return OperatorFactory.getOperator(command).operate(number);
         else if (isDecrementCommand(command)) return OperatorFactory.getOperator(command).operate(number);
-        else return number*number;
+        else return OperatorFactory.getOperator(command).operate(number);
     }
 
     private static boolean isIncrementCommand(char command) {

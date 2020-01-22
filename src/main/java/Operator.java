@@ -1,3 +1,3 @@
 public interface Operator {
-    public int operate(int output);
+    public int operate(int number);
 }

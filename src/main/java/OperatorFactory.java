@@ -5,6 +5,7 @@ public class OperatorFactory {
     private static Map<Character, Operator> operators = new HashMap<Character, Operator>(){{
         put('i', new Increment());
         put('d', new Decrement());
+        put('s', new Square());
     }};
 
 

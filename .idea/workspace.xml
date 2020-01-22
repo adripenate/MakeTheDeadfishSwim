@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35dd6f9-df19-4ef8-a189-098b4ff30457" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Deadfish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deadfish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OperatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OperatorFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,20 +54,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Deadfish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="27" column="99" selection-start-line="27" selection-start-column="99" selection-end-line="27" selection-end-column="99" />
+            <state relative-caret-position="205">
+              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
               <folding>
                 <element signature="e#692#693#0" expanded="true" />
                 <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#1172#1173#0" expanded="true" />
-                <element signature="e#1223#1224#0" expanded="true" />
-                <element signature="e#1286#1287#0" expanded="true" />
-                <element signature="e#1337#1338#0" expanded="true" />
-                <element signature="e#1397#1398#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
+                <element signature="e#1572#1573#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,12 +73,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OperatorFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="119">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
                 <element signature="e#290#291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <folding>
+                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Decrement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <folding>
+                <element signature="e#94#95#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Operator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -126,10 +151,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/DeadfishShould.java" />
         <option value="$PROJECT_DIR$/src/test/java/Deadfish.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Operator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Decrement.java" />
         <option value="$PROJECT_DIR$/src/main/java/Increment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/OperatorFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Deadfish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OperatorFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Square.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Operator.java" />
       </list>
     </option>
   </component>
@@ -458,19 +485,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579694447025</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Refactor - Operation extracted in Factory">
+      <created>1579694684284</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1579694684284</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Refactor - Operation extracted in Factory">
+      <created>1579694747704</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1579694747704</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeadfishShould - 2020.01.22 at 11h 42m 56s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadfishShould - 2020.01.22 at 11h 44m 24s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadfishShould - 2020.01.22 at 11h 44m 59s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DeadfishShould - 2020.01.22 at 11h 46m 24s.xml">
       <configuration name="DeadfishShould" configurationId="JUnit" />
     </history-entry>
@@ -490,6 +522,15 @@
       <configuration name="DeadfishShould" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DeadfishShould - 2020.01.22 at 11h 56m 37s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 12h 02m 50s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 12h 04m 24s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 12h 05m 41s.xml">
       <configuration name="DeadfishShould" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -526,7 +567,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Red test - only_output_a_zero" />
     <MESSAGE value="Green test - only_output_a_zero" />
     <MESSAGE value="Refactor - Parameter renamed" />
     <MESSAGE value="Red test - increment_and_output_a_one" />
@@ -551,13 +591,48 @@
     <MESSAGE value="Test fixed" />
     <MESSAGE value="Refactor - Class moved to its own file" />
     <MESSAGE value="Refactor - FactoryMethod added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor - FactoryMethod added" />
+    <MESSAGE value="Refactor - Operation extracted in Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Operation extracted in Factory" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Decrement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Increment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -583,49 +658,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Increment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OperatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Deadfish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="27" column="99" selection-start-line="27" selection-start-column="99" selection-end-line="27" selection-end-column="99" />
+        <state relative-caret-position="205">
+          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
           <folding>
             <element signature="e#692#693#0" expanded="true" />
             <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
