@@ -26,14 +26,19 @@ public class DeadfishShould {
     private static class Deadfish {
         private static final String OUTPUT_COMMAND = "o";
         private static final char INCREMENT_COMMAND = 'i';
+        public static final char DECREMENT_COMMAND = 'd';
 
         public static int[] parse(String commands) {
             if (commands.equals(OUTPUT_COMMAND)) return new int[] {0};
             int result = 0;
-            if (commands.charAt(0) == INCREMENT_COMMAND) result++;
-            if (commands.charAt(0) == 'd') result--;
-            if (commands.charAt(1) == INCREMENT_COMMAND) result++;
+            if (isIncrementCommand(commands.charAt(0))) result++;
+            if (commands.charAt(0) == DECREMENT_COMMAND) result--;
+            if (isIncrementCommand(commands.charAt(1))) result++;
             return new int[] {result};
+        }
+
+        private static boolean isIncrementCommand(char command) {
+            return command == INCREMENT_COMMAND;
         }
     }
 }
