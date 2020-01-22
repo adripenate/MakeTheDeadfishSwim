@@ -13,6 +13,11 @@ public class DeadfishShould {
         assertThat(Deadfish.parse("io")).isEqualTo(new int[] {1});
     }
 
+    @Test
+    public void operate_and_output_a_zero() {
+        assertThat(Deadfish.parse("ido")).isEqualTo(new int[] {0});
+    }
+
     private static class Deadfish {
         private static final String OUTPUT_COMMAND = "o";
 
