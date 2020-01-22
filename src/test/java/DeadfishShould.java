@@ -29,8 +29,11 @@ public class DeadfishShould {
 
         public static int[] parse(String commands) {
             if (commands.equals(OUTPUT_COMMAND)) return new int[] {0};
-            if (commands.charAt(0) == INCREMENT_COMMAND) return new int[] {1};
-            return new int[] {-1};
+            int result = 0;
+            if (commands.charAt(0) == INCREMENT_COMMAND) result++;
+            if (commands.charAt(0) == 'd') result--;
+            if (commands.charAt(1) == INCREMENT_COMMAND) result++;
+            return new int[] {result};
         }
     }
 }
