@@ -50,13 +50,17 @@ public class DeadfishShould {
             List<Integer> outputs = new LinkedList<>();
             int output = 0;
             for (int i = 0; i<commands.length() ; i++){
-                if (commands.charAt(i) == OUTPUT_COMMAND) {
+                if (isOutputCommand(commands.charAt(i))) {
                     outputs.add(output);
                     output = 0;
                 }
                 else output = parseCommand(commands.charAt(i), output);
             }
             return convertListToArray(outputs);
+        }
+
+        private static boolean isOutputCommand(char command) {
+            return command == OUTPUT_COMMAND;
         }
 
         private static int[] convertListToArray(List<Integer> outputs) {
