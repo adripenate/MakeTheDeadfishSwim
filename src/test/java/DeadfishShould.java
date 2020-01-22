@@ -20,10 +20,11 @@ public class DeadfishShould {
 
     private static class Deadfish {
         private static final String OUTPUT_COMMAND = "o";
+        public static final char INCREMENT_COMMAND = 'i';
 
         public static int[] parse(String commands) {
             if (commands.equals(OUTPUT_COMMAND)) return new int[] {0};
-            if (commands.charAt(0) == 'i') return new int[] {1};
+            if (commands.charAt(0) == INCREMENT_COMMAND) return new int[] {1};
             return new int[] {-1};
         }
     }
