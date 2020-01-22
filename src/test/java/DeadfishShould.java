@@ -44,7 +44,7 @@ public class DeadfishShould {
     private static class Deadfish {
         private static final char OUTPUT_COMMAND = 'o';
         private static final char INCREMENT_COMMAND = 'i';
-        public static final char DECREMENT_COMMAND = 'd';
+        private static final char DECREMENT_COMMAND = 'd';
 
         public static int[] parse(String commands) {
             List<Integer> outputs = new LinkedList<>();
@@ -58,10 +58,6 @@ public class DeadfishShould {
 
         private static char getCommand(String commands, int i) {
             return commands.charAt(i);
-        }
-
-        private static boolean isOutputCommand(char command) {
-            return command == OUTPUT_COMMAND;
         }
 
         private static int[] convertListToArray(List<Integer> outputs) {
@@ -81,6 +77,10 @@ public class DeadfishShould {
 
         private static boolean isDecrementCommand(char command) {
             return command == DECREMENT_COMMAND;
+        }
+
+        private static boolean isOutputCommand(char command) {
+            return command == OUTPUT_COMMAND;
         }
     }
 }
