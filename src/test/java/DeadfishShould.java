@@ -33,6 +33,11 @@ public class DeadfishShould {
         assertThat(Deadfish.parse("iisdo")).isEqualTo(new int[] {3});
     }
 
+    @Test
+    public void output_two_numbers() {
+        assertThat(Deadfish.parse("iisdoiiido")).isEqualTo(new int[] {3, 2});
+    }
+
     private static class Deadfish {
         private static final String OUTPUT_COMMAND = "o";
         private static final char INCREMENT_COMMAND = 'i';
