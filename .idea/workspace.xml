@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35dd6f9-df19-4ef8-a189-098b4ff30457" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DeadfishShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeadfishShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DeadfishShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#101#102#0" expanded="true" />
@@ -41,8 +40,8 @@
                 <element signature="e#358#359#0" expanded="true" />
                 <element signature="e#425#426#0" expanded="true" />
                 <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#1322#1323#0" expanded="true" />
-                <element signature="e#1392#1393#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -236,25 +235,38 @@
       <option name="project" value="LOCAL" />
       <updated>1579691339491</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Refactor - Condition extracted as method">
+      <created>1579691498018</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579691498018</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Refactor - Condition extracted as method">
+      <created>1579691547268</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579691547268</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Red test - increment_decrement_and_output_a_zero_one">
+      <created>1579691602022</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579691602022</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Green test - increment_decrement_and_output_a_zero_one">
+      <created>1579691710027</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579691710027</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeadfishShould - 2020.01.22 at 10h 48m 17s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadfishShould - 2020.01.22 at 10h 50m 24s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadfishShould - 2020.01.22 at 10h 51m 39s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadfishShould_decrement_and_output_a_minus_one - 2020.01.22 at 11h 00m 44s.xml">
-      <configuration name="DeadfishShould.decrement_and_output_a_minus_one" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadfishShould - 2020.01.22 at 11h 00m 50s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DeadfishShould - 2020.01.22 at 11h 02m 08s.xml">
       <configuration name="DeadfishShould" configurationId="JUnit" />
     </history-entry>
@@ -268,6 +280,21 @@
       <configuration name="DeadfishShould" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DeadfishShould - 2020.01.22 at 11h 08m 49s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 11h 11m 20s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 11h 12m 19s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 11h 13m 07s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 11h 14m 14s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 11h 14m 50s.xml">
       <configuration name="DeadfishShould" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -314,7 +341,10 @@
     <MESSAGE value="Refactor - Magic string extracted as constant" />
     <MESSAGE value="Red test - decrement_increment_and_output_a_zero_one" />
     <MESSAGE value="Green test - decrement_increment_and_output_a_zero_one" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green test - decrement_increment_and_output_a_zero_one" />
+    <MESSAGE value="Refactor - Condition extracted as method" />
+    <MESSAGE value="Red test - increment_decrement_and_output_a_zero_one" />
+    <MESSAGE value="Green test - increment_decrement_and_output_a_zero_one" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green test - increment_decrement_and_output_a_zero_one" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -326,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DeadfishShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        <state relative-caret-position="136">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#101#102#0" expanded="true" />
@@ -336,8 +366,8 @@
             <element signature="e#358#359#0" expanded="true" />
             <element signature="e#425#426#0" expanded="true" />
             <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
           </folding>
         </state>
       </provider>
