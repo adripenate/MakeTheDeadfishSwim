@@ -52,9 +52,8 @@ public class DeadfishShould {
             for (int i = 0; i<commands.length() ; i++){
                 if (isOutputCommand(commands.charAt(i))) {
                     outputs.add(output);
-                    output = 0;
                 }
-                else output = parseCommand(commands.charAt(i), output);
+                output = parseCommand(commands.charAt(i), output);
             }
             return convertListToArray(outputs);
         }
@@ -70,6 +69,7 @@ public class DeadfishShould {
         private static int parseCommand(char command, int number) {
             if (isIncrementCommand(command)) return ++number;
             else if (isDecrementCommand(command)) return --number;
+            else if (isOutputCommand(command)) return 0;
             else return number*number;
         }
 
