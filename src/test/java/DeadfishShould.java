@@ -1,5 +1,8 @@
 import org.junit.Test;
 
+import java.util.LinkedList;
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class DeadfishShould {
@@ -44,12 +47,16 @@ public class DeadfishShould {
         public static final char DECREMENT_COMMAND = 'd';
 
         public static int[] parse(String commands) {
-            if (commands.equals(OUTPUT_COMMAND)) return new int[] {0};
+            List<Integer> outputs = new LinkedList<>();
             int output = 0;
-            for (int i = 0; i<commands.length()-1 ; i++){
-                output = parseCommand(commands.charAt(i), output);
+            for (int i = 0; i<commands.length() ; i++){
+                if (commands.charAt(i) == 'o') {
+                    outputs.add(output);
+                    output = 0;
+                }
+                else output = parseCommand(commands.charAt(i), output);
             }
-            return new int[] {output};
+            return outputs.stream().mapToInt(number -> number).toArray();
         }
 
         private static int parseCommand(char command, int number) {
