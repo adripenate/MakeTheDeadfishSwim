@@ -42,14 +42,15 @@ public class DeadfishShould {
             if (commands.equals(OUTPUT_COMMAND)) return new int[] {0};
             int result = 0;
             for (int i = 0; i<commands.length()-1 ; i++){
-                result += parseCommand(commands.charAt(i));
+                result = parseCommand(commands.charAt(i), result);
             }
             return new int[] {result};
         }
 
-        private static int parseCommand(char command) {
-            if (isIncrementCommand(command)) return 1;
-            else return -1;
+        private static int parseCommand(char command, int result) {
+            if (isIncrementCommand(command)) return ++result;
+            else if (isDecrementCommand(command)) return --result;
+            else return result*result;
         }
 
         private static boolean isIncrementCommand(char command) {
