@@ -3,8 +3,6 @@ import java.util.List;
 
 public class Deadfish {
     private static final char OUTPUT_COMMAND = 'o';
-    private static final char INCREMENT_COMMAND = 'i';
-    private static final char DECREMENT_COMMAND = 'd';
 
     public static int[] parse(String commands) {
         List<Integer> outputs = new LinkedList<>();
@@ -25,17 +23,7 @@ public class Deadfish {
     }
 
     private static int operateOnOutput(char command, int number) {
-        if (isIncrementCommand(command)) return OperatorFactory.getOperator(command).operate(number);
-        else if (isDecrementCommand(command)) return OperatorFactory.getOperator(command).operate(number);
-        else return OperatorFactory.getOperator(command).operate(number);
-    }
-
-    private static boolean isIncrementCommand(char command) {
-        return command == INCREMENT_COMMAND;
-    }
-
-    private static boolean isDecrementCommand(char command) {
-        return command == DECREMENT_COMMAND;
+        return OperatorFactory.getOperator(command).operate(number);
     }
 
     private static boolean isOutputCommand(char command) {
