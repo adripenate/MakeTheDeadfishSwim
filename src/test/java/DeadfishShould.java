@@ -19,13 +19,18 @@ public class DeadfishShould {
     }
 
     @Test
-    public void decrement_increment_and_output_a_zero_one() {
+    public void decrement_increment_and_output_a_zero() {
         assertThat(Deadfish.parse("dio")).isEqualTo(new int[] {0});
     }
 
     @Test
-    public void increment_decrement_and_output_a_zero_one() {
+    public void increment_decrement_and_output_a_zero() {
         assertThat(Deadfish.parse("ido")).isEqualTo(new int[] {0});
+    }
+
+    @Test
+    public void double_increment_squares_decrement_and_output_a_three() {
+        assertThat(Deadfish.parse("iisdo")).isEqualTo(new int[] {3});
     }
 
     private static class Deadfish {
