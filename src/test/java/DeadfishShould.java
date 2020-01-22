@@ -38,7 +38,7 @@ public class DeadfishShould {
 
     @Test
     public void output_two_numbers() {
-        assertThat(Deadfish.parse("iisdoiiido")).isEqualTo(new int[] {3, 2});
+        assertThat(Deadfish.parse("iisdoiiido")).isEqualTo(new int[] {3, 5});
     }
 
     private static class Deadfish {
@@ -51,7 +51,7 @@ public class DeadfishShould {
             int output = 0;
             for (int i = 0; i<commands.length() ; i++){
                 if (isOutputCommand(getCommand(commands, i))) outputs.add(output);
-                output = operateOnOutput(getCommand(commands, i), output);
+                else output = operateOnOutput(getCommand(commands, i), output);
             }
             return convertListToArray(outputs);
         }
@@ -67,7 +67,6 @@ public class DeadfishShould {
         private static int operateOnOutput(char command, int number) {
             if (isIncrementCommand(command)) return ++number;
             else if (isDecrementCommand(command)) return --number;
-            else if (isOutputCommand(command)) return 0;
             else return number*number;
         }
 
