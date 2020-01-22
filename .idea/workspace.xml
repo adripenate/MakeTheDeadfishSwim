@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d35dd6f9-df19-4ef8-a189-098b4ff30457" name="Default Changelist" comment="Refactor - Condition extracted as method">
+    <list default="true" id="d35dd6f9-df19-4ef8-a189-098b4ff30457" name="Default Changelist" comment="Test fixed">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Deadfish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DeadfishShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeadfishShould.java" afterDir="false" />
     </list>
@@ -28,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DeadfishShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-578">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="243">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#213#214#0" expanded="true" />
@@ -47,12 +49,25 @@
                 <element signature="e#840#841#0" expanded="true" />
                 <element signature="e#1051#1052#0" expanded="true" />
                 <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1860#1861#0" expanded="true" />
-                <element signature="e#1916#1917#0" expanded="true" />
-                <element signature="e#2445#2446#0" expanded="true" />
-                <element signature="e#2504#2505#0" expanded="true" />
-                <element signature="e#2571#2572#0" expanded="true" />
-                <element signature="e#2630#2631#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Deadfish.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <folding>
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="e#1337#1338#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#1445#1446#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,6 +90,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/DeadfishShould.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Deadfish.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Deadfish.java" />
       </list>
     </option>
   </component>
@@ -125,6 +142,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -337,25 +362,38 @@
       <option name="project" value="LOCAL" />
       <updated>1579693180945</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Refactor - Operation moved to a method">
+      <created>1579693635105</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1579693635105</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Refactor - Operations extracted as methods">
+      <created>1579693714546</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1579693714546</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Refactor - Method pulled down">
+      <created>1579693780688</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1579693780688</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Test fixed">
+      <created>1579693971743</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1579693971743</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeadfishShould - 2020.01.22 at 11h 34m 59s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadfishShould - 2020.01.22 at 11h 35m 17s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadfishShould - 2020.01.22 at 11h 36m 07s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadfishShould - 2020.01.22 at 11h 36m 55s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeadfishShould - 2020.01.22 at 11h 39m 14s.xml">
-      <configuration name="DeadfishShould" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DeadfishShould - 2020.01.22 at 11h 42m 56s.xml">
       <configuration name="DeadfishShould" configurationId="JUnit" />
     </history-entry>
@@ -369,6 +407,21 @@
       <configuration name="DeadfishShould" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DeadfishShould - 2020.01.22 at 11h 46m 38s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 11h 46m 59s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 11h 48m 21s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 11h 49m 25s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 11h 52m 35s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 11h 56m 37s.xml">
       <configuration name="DeadfishShould" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -424,37 +477,11 @@
     <MESSAGE value="Refactor - Operation extracted as method" />
     <MESSAGE value="Refactor - Magic string extracted as constant" />
     <MESSAGE value="Refactor - Condition extracted as method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Condition extracted as method" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/DeadfishShould.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/DeadfishShould.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/DeadfishShould.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/DeadfishShould.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Refactor - Operation moved to a method" />
+    <MESSAGE value="Refactor - Operations extracted as methods" />
+    <MESSAGE value="Refactor - Method pulled down" />
+    <MESSAGE value="Test fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test fixed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -466,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DeadfishShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="243">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#213#214#0" expanded="true" />
@@ -482,12 +509,23 @@
             <element signature="e#840#841#0" expanded="true" />
             <element signature="e#1051#1052#0" expanded="true" />
             <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-            <element signature="e#2445#2446#0" expanded="true" />
-            <element signature="e#2504#2505#0" expanded="true" />
-            <element signature="e#2571#2572#0" expanded="true" />
-            <element signature="e#2630#2631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Deadfish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
           </folding>
         </state>
       </provider>
