@@ -42,7 +42,7 @@ public class DeadfishShould {
     }
 
     private static class Deadfish {
-        private static final String OUTPUT_COMMAND = "o";
+        private static final char OUTPUT_COMMAND = 'o';
         private static final char INCREMENT_COMMAND = 'i';
         public static final char DECREMENT_COMMAND = 'd';
 
@@ -50,7 +50,7 @@ public class DeadfishShould {
             List<Integer> outputs = new LinkedList<>();
             int output = 0;
             for (int i = 0; i<commands.length() ; i++){
-                if (commands.charAt(i) == 'o') {
+                if (commands.charAt(i) == OUTPUT_COMMAND) {
                     outputs.add(output);
                     output = 0;
                 }
