@@ -56,6 +56,10 @@ public class DeadfishShould {
                 }
                 else output = parseCommand(commands.charAt(i), output);
             }
+            return convertListToArray(outputs);
+        }
+
+        private static int[] convertListToArray(List<Integer> outputs) {
             return outputs.stream().mapToInt(number -> number).toArray();
         }
 
