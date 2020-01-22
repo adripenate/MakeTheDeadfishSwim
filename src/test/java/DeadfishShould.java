@@ -14,8 +14,10 @@ public class DeadfishShould {
     }
 
     private static class Deadfish {
+        private static final String OUTPUT_COMMAND = "o";
+
         public static int[] parse(String commands) {
-            if (commands.equals("o")) return new int[] {0};
+            if (commands.equals(OUTPUT_COMMAND)) return new int[] {0};
             return new int[] {1};
         }
     }

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d35dd6f9-df19-4ef8-a189-098b4ff30457" name="Default Changelist" comment="Refactor">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d35dd6f9-df19-4ef8-a189-098b4ff30457" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/DeadfishShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeadfishShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,13 +30,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DeadfishShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="238">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#101#102#0" expanded="true" />
                 <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
                 <element signature="e#358#359#0" expanded="true" />
               </folding>
             </state>
@@ -157,8 +156,50 @@
       <option name="project" value="LOCAL" />
       <updated>1579690070925</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Green test - only_output_a_zero">
+      <created>1579690116061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579690116061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactor - Parameter renamed">
+      <created>1579690146798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579690146798</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Red test - increment_and_output_a_one">
+      <created>1579690266718</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579690266718</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Green test - increment_and_output_a_one">
+      <created>1579690317595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579690317595</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DeadfishShould - 2020.01.22 at 10h 47m 36s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 10h 48m 17s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 10h 50m 24s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 10h 51m 39s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -194,7 +235,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Red test - only_output_a_zero" />
-    <option name="LAST_COMMIT_MESSAGE" value="Red test - only_output_a_zero" />
+    <MESSAGE value="Green test - only_output_a_zero" />
+    <MESSAGE value="Refactor - Parameter renamed" />
+    <MESSAGE value="Red test - increment_and_output_a_one" />
+    <MESSAGE value="Green test - increment_and_output_a_one" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green test - increment_and_output_a_one" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -206,13 +251,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DeadfishShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#101#102#0" expanded="true" />
             <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
             <element signature="e#358#359#0" expanded="true" />
           </folding>
         </state>
