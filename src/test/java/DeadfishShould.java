@@ -18,9 +18,14 @@ public class DeadfishShould {
         assertThat(Deadfish.parse("do")).isEqualTo(new int[] {-1});
     }
 
+    @Test
+    public void decrement_increment_and_output_a_zero_one() {
+        assertThat(Deadfish.parse("dio")).isEqualTo(new int[] {0});
+    }
+
     private static class Deadfish {
         private static final String OUTPUT_COMMAND = "o";
-        public static final char INCREMENT_COMMAND = 'i';
+        private static final char INCREMENT_COMMAND = 'i';
 
         public static int[] parse(String commands) {
             if (commands.equals(OUTPUT_COMMAND)) return new int[] {0};
