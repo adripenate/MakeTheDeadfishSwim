@@ -14,8 +14,8 @@ public class DeadfishShould {
     }
 
     @Test
-    public void operate_and_output_a_zero() {
-        assertThat(Deadfish.parse("ido")).isEqualTo(new int[] {0});
+    public void decrement_and_output_a_minus_one() {
+        assertThat(Deadfish.parse("do")).isEqualTo(new int[] {-1});
     }
 
     private static class Deadfish {
