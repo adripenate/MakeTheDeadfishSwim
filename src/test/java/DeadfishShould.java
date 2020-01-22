@@ -9,7 +9,7 @@ public class DeadfishShould {
     }
 
     private static class Deadfish {
-        public static int[] parse(String o) {
+        public static int[] parse(String commands) {
             return new int[] {0};
         }
     }
