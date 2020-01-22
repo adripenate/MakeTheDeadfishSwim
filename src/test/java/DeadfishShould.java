@@ -10,7 +10,7 @@ public class DeadfishShould {
 
     private static class Deadfish {
         public static int[] parse(String o) {
-            return new int[] {};
+            return new int[] {0};
         }
     }
 }
