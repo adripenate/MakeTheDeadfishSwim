@@ -50,12 +50,14 @@ public class DeadfishShould {
             List<Integer> outputs = new LinkedList<>();
             int output = 0;
             for (int i = 0; i<commands.length() ; i++){
-                if (isOutputCommand(commands.charAt(i))) {
-                    outputs.add(output);
-                }
-                output = parseCommand(commands.charAt(i), output);
+                if (isOutputCommand(getCommand(commands, i))) outputs.add(output);
+                output = operateOnOutput(getCommand(commands, i), output);
             }
             return convertListToArray(outputs);
+        }
+
+        private static char getCommand(String commands, int i) {
+            return commands.charAt(i);
         }
 
         private static boolean isOutputCommand(char command) {
@@ -66,7 +68,7 @@ public class DeadfishShould {
             return outputs.stream().mapToInt(number -> number).toArray();
         }
 
-        private static int parseCommand(char command, int number) {
+        private static int operateOnOutput(char command, int number) {
             if (isIncrementCommand(command)) return ++number;
             else if (isDecrementCommand(command)) return --number;
             else if (isOutputCommand(command)) return 0;
