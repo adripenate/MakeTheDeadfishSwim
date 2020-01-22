@@ -30,14 +30,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DeadfishShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="119">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#101#102#0" expanded="true" />
                 <element signature="e#122#123#0" expanded="true" />
                 <element signature="e#286#287#0" expanded="true" />
                 <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DeadfishShould">
     <configuration name="DeadfishShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MakeTheDeadfishSwim" />
       <option name="PACKAGE_NAME" value="" />
@@ -132,9 +134,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeadfishShould.decrement_and_output_a_minus_one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MakeTheDeadfishSwim" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeadfishShould" />
+      <option name="METHOD_NAME" value="decrement_and_output_a_minus_one" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DeadfishShould" />
+        <item itemvalue="JUnit.DeadfishShould.decrement_and_output_a_minus_one" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +213,12 @@
     <history-entry file="DeadfishShould - 2020.01.22 at 10h 51m 39s.xml">
       <configuration name="DeadfishShould" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DeadfishShould_decrement_and_output_a_minus_one - 2020.01.22 at 11h 00m 44s.xml">
+      <configuration name="DeadfishShould.decrement_and_output_a_minus_one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeadfishShould - 2020.01.22 at 11h 00m 50s.xml">
+      <configuration name="DeadfishShould" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -251,14 +270,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DeadfishShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="119">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#101#102#0" expanded="true" />
             <element signature="e#122#123#0" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
             <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
           </folding>
         </state>
       </provider>

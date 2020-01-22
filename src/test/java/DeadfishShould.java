@@ -23,7 +23,8 @@ public class DeadfishShould {
 
         public static int[] parse(String commands) {
             if (commands.equals(OUTPUT_COMMAND)) return new int[] {0};
-            return new int[] {1};
+            if (commands.charAt(0) == 'i') return new int[] {1};
+            return new int[] {-1};
         }
     }
 }
