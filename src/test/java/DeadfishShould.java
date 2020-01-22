@@ -8,6 +8,11 @@ public class DeadfishShould {
         assertThat(Deadfish.parse("o")).isEqualTo(new int[] {0});
     }
 
+    @Test
+    public void increment_and_output_a_one() {
+        assertThat(Deadfish.parse("io")).isEqualTo(new int[] {1});
+    }
+
     private static class Deadfish {
         public static int[] parse(String commands) {
             return new int[] {0};
