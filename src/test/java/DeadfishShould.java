@@ -32,13 +32,17 @@ public class DeadfishShould {
             if (commands.equals(OUTPUT_COMMAND)) return new int[] {0};
             int result = 0;
             if (isIncrementCommand(commands.charAt(0))) result++;
-            if (commands.charAt(0) == DECREMENT_COMMAND) result--;
+            if (isDecrementCommand(commands.charAt(0))) result--;
             if (isIncrementCommand(commands.charAt(1))) result++;
             return new int[] {result};
         }
 
         private static boolean isIncrementCommand(char command) {
             return command == INCREMENT_COMMAND;
+        }
+
+        private static boolean isDecrementCommand(char command) {
+            return command == DECREMENT_COMMAND;
         }
     }
 }
